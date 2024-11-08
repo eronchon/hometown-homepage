@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: "Sora", sans-serif;
+    color: #0e362d;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section {
+    background-image: url("./images/toronto.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #faffff;
+}
+
+.highlighted {
+    text-shadow: 0 0 2px black;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+#visit-text {
+    background-color: #A8DADC;
+}
+
+#headline-text {
+    background-color: #1D3557;
+    width: 50%;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.activities-section {
+    background: linear-gradient(#D4FFE9, #E2F4FF);
+    padding: 8px 10px 25px 10px;
+}
+
+.activities-header {
+    font-size: 1.4em;
+}
+
+.activities {
+    display: flex;
+    margin: 50px 15px 0px 15px;
+}
+
+.activity {
+    margin: 0 35px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.descriptor-1 {
+    font-weight: bold;
+    margin: 20px 0 25px 0;
+}
+
+.activity-img {
+    border-radius: 50%;
+    height: 120px;
+}
+
+.activity-img:hover {
+    width: 150px;
+    height: 150px;
+}
+
+.guide-section {
+    display: flex;
+    align-items: center;
+    width: 475px;
+    background-color: #A8DADC;
+    margin: 25px 0 60px 0;
+    padding: 0 25px;
+    border-radius: 10px;
+    border-bottom: 10px solid #1D3557;
+}
+
+.guide-text {
+    padding: 12px 15px;
+}
+
+.guide-text p {
+    text-shadow: 0 0 9px #ffffff;
+}
+
+img {
+    width: 120px;
+}
+
+#eron-img {
+    background-image: url("./images/eron.png");
+    background-size: cover;
+    width: 1500px;
+    height: 200px;
+    margin: 0 5px;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+}
+
+#eron-img:hover {
+    background-image: url("./images/eron_hover.png");
+}
